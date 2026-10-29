@@ -1,0 +1,576 @@
+
+
+:root
+{
+  background-color: #daec89;
+}
+
+
+
+/* ====================================================================================== */
+/*                              TITLE CSS CODE:                                           */
+/* ====================================================================================== */
+
+.title_Div
+{
+  display: flex;
+  align-content: row;
+  justify-content: center;
+  
+  user-select: none;
+}
+
+.h1_title_1
+{
+  margin-top: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  font-family: "Rammetto One", sans-serif;
+  font-weight: 700;
+  font-size: 80px;
+  font-style: normal;
+  -webkit-text-stroke: 3.5px black;
+
+  text-align: center;
+
+  background: linear-gradient(to bottom, #88d5ff 0%, #0800ff 50%, hsl(257, 91%, 21%) 100%);
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  user-select: none;
+
+}
+
+.h1_title_1:hover
+{
+  animation: WobbleAnimation 0.8s linear 0.0s 60 normal forwards;
+}
+
+
+
+.h1_title_2
+{
+  margin-top: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  font-family: "Rammetto One", sans-serif;
+  font-weight: 700;
+  font-size: 80px;
+  font-style: normal;
+  -webkit-text-stroke: 3.5px black;
+
+  text-align: center;
+
+  background: linear-gradient(to bottom, #88ffff 0%, hsl(179, 96%, 29%) 50%, hsl(195, 78%, 25%) 100%);
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  user-select: none;
+}
+
+.h1_title_2:hover
+{
+  animation: WobbleAnimation 0.8s linear 0.0s 60 normal forwards;
+}
+
+.h1_title_3
+{
+  margin-top: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  font-family: "Rammetto One", sans-serif;
+  font-weight: 700;
+  font-size: 80px;
+  font-style: normal;
+  -webkit-text-stroke: 3.5px black;
+  letter-spacing: 1.2px;
+
+  text-align: center;
+
+  background: linear-gradient(to bottom, #eb88ff 0%, #9b03af 50%, hsl(311, 97%, 29%) 100%);
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  user-select: none;
+}
+
+.h1_title_3:hover
+{
+  animation: WobbleAnimation 0.8s linear 0.0s 60 normal forwards;
+}
+
+.h1_title_4
+{
+  margin-top: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  font-family: "Rammetto One", sans-serif;
+  font-weight: 700;
+  font-size: 80px;
+  font-style: normal;
+  -webkit-text-stroke: 3.5px black;
+
+  text-align: center;
+
+  background: linear-gradient(to bottom, #ff8888 0%, #ff0000 50%, #bb0000 100%);
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  user-select: none;
+}
+
+.h1_title_4:hover
+{
+  animation: WobbleAnimation 0.8s linear 0.0s 60 normal forwards;
+}
+
+.h1_title_5
+{
+  margin-top: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  font-family: "Rammetto One", sans-serif;
+  font-weight: 700;
+  font-size: 80px;
+  font-style: normal;
+  -webkit-text-stroke: 3.5px black;
+  letter-spacing: 1.2px;
+
+  text-align: center;
+
+  background: linear-gradient(to bottom, hwb(25 23% 2%) 0%, hsl(25, 100%, 50%) 50%, #bb2f00 100%);
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  user-select: none;
+}
+
+.h1_title_5:hover
+{
+  animation: WobbleAnimation 0.8s linear 0.0s 60 normal forwards;
+}
+
+
+.h1_title_6
+{
+  margin-top: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  font-family: "Rammetto One", sans-serif;
+  font-weight: 700;
+  font-size: 80px;
+  font-style: normal;
+  -webkit-text-stroke: 3.5px black;
+  letter-spacing: 1.2px;
+
+  text-align: center;
+
+  background: linear-gradient(to bottom, lab(96.98% -20.93 63.78) 0%, hsl(51, 100%, 50%) 50%, hwb(55 0% 26%) 100%);
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  user-select: none;
+}
+
+.h1_title_6:hover
+{
+  animation: WobbleAnimation 0.8s linear 0.0s 60 normal forwards;
+}
+
+.h1_title_7
+{
+  margin-top: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  font-family: "Rammetto One", sans-serif;
+  font-weight: 700;
+  font-size: 80px;
+  font-style: normal;
+  -webkit-text-stroke: 3.5px black;
+  letter-spacing: 1.2px;
+
+  text-align: center;
+
+  background: linear-gradient(to bottom, hsl(323, 100%, 77%) 0%, #ff00c8 50%, hwb(315 0% 26%) 100%);
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  user-select: none;
+}
+
+.h1_title_7:hover
+{
+  animation: WobbleAnimation 0.8s linear 0.0s 60 normal forwards;
+}
+
+.h1_title_8
+{
+  margin-top: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  font-family: "Rammetto One", sans-serif;
+  font-weight: 700;
+  font-size: 80px;
+  font-style: normal;
+  -webkit-text-stroke: 3.5px black;
+  letter-spacing: 1.2px;
+
+  text-align: center;
+
+  background: linear-gradient(to bottom, hwb(114 54% 0%) 0%, #37ff00 50%, hsl(120, 100%, 37%) 100%);
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  user-select: none;
+}
+
+.h1_title_8:hover
+{
+  animation: WobbleAnimation 0.8s linear 0.0s 60 normal forwards;
+}
+
+.h1_title_9
+{
+  margin-top: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  font-family: "Rammetto One", sans-serif;
+  font-weight: 700;
+  font-size: 80px;
+  font-style: normal;
+  -webkit-text-stroke: 3.5px black;
+  letter-spacing: 1.2px;
+
+  text-align: center;
+
+  background: linear-gradient(to bottom, #b2b2b0 0%, #6b6a69 50%, hsl(0, 0%, 13%) 100%);
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  user-select: none;
+
+  
+}
+
+.h1_title_9:hover
+{
+  animation: WobbleAnimation 0.8s linear 0.0s 60 normal forwards;
+}
+
+@keyframes WobbleAnimation {
+	0% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+		transform-origin: center center;
+	}
+
+	10% {
+		animation-timing-function: ease-in;
+		transform: scale(1.2);
+	}
+
+	17% {
+		animation-timing-function: ease-out;
+		transform: scale(1.4);
+	}
+
+	33% {
+		animation-timing-function: ease-in;
+		transform: scale(1.6);
+	}
+
+	45% {
+		animation-timing-function: ease-out;
+		transform: scale(1.8);
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ====================================================================================== */
+/*                              PRIMARY CSS CODE:                                         */
+/* ====================================================================================== */
+
+
+
+.Remove_btn {
+  width: 15px;
+  height: 15px;
+
+  object-fit: contain;
+
+  transition: transform 0.2s;
+  padding: 0;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+
+  display:flex;
+
+  user-select: none;
+
+}
+
+
+.Remove_btn:hover {
+  transform: scale(1.2);
+  padding: 0;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+
+  user-select: none;
+
+}
+
+.P1
+{
+  user-select: none;
+}
+
+
+.Task_title
+{
+  background: gray;
+  border-radius: 12px;
+
+  margin-top: 12px;
+
+}
+
+.Task_text
+{
+  background: gray;
+  border-radius: 12px;
+
+  margin-bottom: 5px;
+}
+
+.Title_input
+{
+  border-radius: 12px;
+  padding-left: 8px;
+  padding-right: 8px;
+
+  box-shadow: -4px -4px 8px black;
+}
+
+.Text_input
+{
+  border-radius: 12px;
+  padding-left: 8px;
+  padding-right: 8px;
+
+  box-shadow: -4px -4px 8px black;
+}
+
+.sectionAll
+{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    gap: 10px;
+  
+}
+
+.addTask_btn
+{
+  background: linear-gradient(45deg, red 40%, white 30%, blue 30%);
+  border-radius: 12px;
+
+  color: yellow;
+  font-weight: bold;
+  font-size: 14px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  user-select: none;
+
+}
+
+.addTask_btn:hover
+{
+  background: linear-gradient(180deg, blue 55%, white 20%, red 40%);
+  color: hsl(60, 86%, 60%);
+}
+.addTask_btn:active
+{
+   background: linear-gradient(130deg, blue 50%, white 20%, red 40%);
+  color: #c1c10e;
+  }
+
+
+
+.Trashbin
+{
+  padding: 5px;
+
+  margin: 5px;
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  flex-wrap: nowrap;
+
+  max-height: 10px;
+}
+
+.Removing_text
+{
+  color:hwb(0 5% 1%);
+
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+
+.li_Box
+{
+    border-radius: 8px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    background-color: hsl(60, 96%, 78%);
+
+    margin-left: 24rem;
+    margin-right: 24rem;
+
+    padding-left: 5px;
+    padding-right: 5px;
+
+    margin-bottom: 5px;
+
+}
+
+.Percent_text
+{
+  user-select: none;
+}
+
+.Task_buttons
+{
+  margin-bottom: -5px;
+}
+
+
+.saveTask_btn
+{
+  width: 15px;
+  height: 15px;
+
+  object-fit: contain;
+
+  transition: transform 0.2s;
+  padding: 0;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+
+  display:flex;
+
+  user-select: none;
+}
+
+.saveTask_btn:hover
+{
+    transform: scale(1.2);
+  padding: 0;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+
+  user-select: none;
+
+}
+
+.floppySave
+{
+  padding: 5px;
+
+  margin: 5px;
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  flex-wrap: nowrap;
+
+  max-height: 10px;
+}
+
+.Saved_text
+{
+  color: #5b910a;
+  font-size: 15px;
+
+}
+
+.Saving_text
+{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    color: hsl(231, 100%, 55%);
+}
+
+
+.Filter_div
+{
+  margin-top: 35px;
+}
+
+.Filter_input
+{
+  font-size: 24px;
+  border: 4px double rgba(28,110,164,0.34);
+  border-radius: 0px 40px 0px 40px;
+  background-color: hwb(73 88% 5%);
+
+  padding-left: 20px;
+  padding-right: 20px;
+  
+  margin-bottom: 30px;
+
+  box-shadow: 8px 8px 16px black;
+}
+
+
+
