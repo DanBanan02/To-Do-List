@@ -440,7 +440,7 @@ function SaveTask(task)
                           </span>
                         : (
                           <>
-                            <meter
+                            <meter className='M_Remove'
                               min="0"
                               max="100"
                               value={loadingPercent[task.Id] ?? 0}
@@ -491,6 +491,7 @@ function SaveTask(task)
                       : (
                         <>
                           <meter
+                          className='M_Floppy'
                             min="0"
                             max="100"
                             value={savingPercent[task.Id] ?? 0}

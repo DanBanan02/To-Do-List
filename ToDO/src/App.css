@@ -537,7 +537,7 @@
 
 .Saved_text
 {
-  color: #5b910a;
+  color: hwb(222 0% 16%);
   font-size: 15px;
 
 }
@@ -571,6 +571,52 @@
 
   box-shadow: 8px 8px 16px black;
 }
+/* ======================================================= */
+                  /* LOADING BAR's */
+/* ======================================================= */
+
+
+/* Background of Meter - Remove Meter */
+.M_Remove::-webkit-meter-bar
+{
+  background: lab(98.35% -5.74 9.84);
+
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+
+}
+
+/* Loading Bar of Meter - Remove Meter */
+.M_Remove::-webkit-meter-optimum-value
+{
+  background: #ff5757;
+  border-width: 1.5px;
+  border-style: solid;
+  border-color: black;
+}
+
+/* ======================================================= */
+
+/* Background of Meter - Floppy Meter */
+.M_Floppy::-webkit-meter-bar
+{
+  background: lab(98.35% -5.74 9.84);
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+}
+
+/* Loading Bar of Meter - Floppy Meter */
+.M_Floppy::-webkit-meter-optimum-value
+{
+  background: #4747fe;
+  border-width: 1.5px;
+  border-style: solid;
+  border-color: black;
+}
+
+/* ======================================================= */
 
 
 
