@@ -554,7 +554,7 @@
 
 .Filter_div
 {
-  margin-top: 35px;
+  margin-top: 5px;
 }
 
 .Filter_input
@@ -617,6 +617,148 @@
 }
 
 /* ======================================================= */
+
+
+.High_Task
+{
+  color: red;
+  border: 1.5px solid #000000;
+  border-radius: 12px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.Low_Task
+{
+  color: oklch(76.159% 0.23488 140.553);
+  border: 1.5px solid #000000;
+  border-radius: 12px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+/* ======================================================= */
+
+.Select_Filter
+{
+  border: black;
+  border-radius: 12px;
+  border-width: 1.5px;
+  border-style: solid;
+}
+
+option {
+    border: 2px solid #000000;
+}
+
+.Select_all
+{
+  color: black;
+}
+
+.Filter_All
+{
+  color: black;
+}
+
+
+
+.Select_high
+{
+  color: #b80505;
+}
+
+.Filter_High
+{
+  color: #b80505;
+}
+
+
+
+.Select_low
+{
+  color: #049d04;
+}
+
+.Filter_Low
+{
+  color: #049d04;
+}
+
+
+.Select_oldest
+{
+  color: lch(53.63% 77.23 31.9);
+
+}
+
+.Filter_Oldest
+{
+  color: lch(53.63% 77.23 31.9);
+}
+
+
+
+.Select_newest
+{
+  color: lab(74.47% -51.99 60.03);
+
+}
+
+.Filter_Newest
+{
+  color: lab(74.47% -51.99 60.03);
+}
+
+.Choice_Filter
+{
+  font-weight: bold;
+  color: black;
+}
+.Priority_low_high
+{
+  font-weight: bold;
+  color: black;
+}
+
+
+
+/* =========================================== */
+
+.Prio_Date
+{
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 8px;
+
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+
+  background: hsl(60, 73%, 76%);
+}
+
+.Task_Priority
+{
+  font-weight: bold;
+  color: #000000;
+
+
+  font-size: 12px;
+}
+
+.Task_date
+{
+  font-weight: bold;
+  color: #000000;
+
+  font-size: 8px;
+}
+
+
+
+
+
 
 
 
