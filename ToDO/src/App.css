@@ -3,6 +3,20 @@
 :root
 {
   background-color: #daec89;
+
+  --Text_border_color: lch(98.27% 0.01 296.81);
+  --Text_Padding_top-bot: 2.5rem;
+}
+
+html,
+body,
+#root
+{
+  margin: 0;
+  padding: 0;
+
+  width: 100%;
+  min-height: 100%;
 }
 
 
@@ -23,8 +37,8 @@
 .h1_title_1
 {
   margin-top: 30px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: var(--Text_Padding_top-bot);
+  padding-bottom: var(--Text_Padding_top-bot);
 
   font-family: "Rammetto One", sans-serif;
   font-weight: 700;
@@ -54,8 +68,8 @@
 .h1_title_2
 {
   margin-top: 30px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: var(--Text_Padding_top-bot);
+  padding-bottom: var(--Text_Padding_top-bot);
 
   font-family: "Rammetto One", sans-serif;
   font-weight: 700;
@@ -82,8 +96,8 @@
 .h1_title_3
 {
   margin-top: 30px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: var(--Text_Padding_top-bot);
+  padding-bottom: var(--Text_Padding_top-bot);
 
   font-family: "Rammetto One", sans-serif;
   font-weight: 700;
@@ -111,8 +125,8 @@
 .h1_title_4
 {
   margin-top: 30px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: var(--Text_Padding_top-bot);
+  padding-bottom: var(--Text_Padding_top-bot);
 
   font-family: "Rammetto One", sans-serif;
   font-weight: 700;
@@ -139,8 +153,8 @@
 .h1_title_5
 {
   margin-top: 30px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: var(--Text_Padding_top-bot);
+  padding-bottom: var(--Text_Padding_top-bot);
 
   font-family: "Rammetto One", sans-serif;
   font-weight: 700;
@@ -169,8 +183,8 @@
 .h1_title_6
 {
   margin-top: 30px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: var(--Text_Padding_top-bot);
+  padding-bottom: var(--Text_Padding_top-bot);
 
   font-family: "Rammetto One", sans-serif;
   font-weight: 700;
@@ -198,8 +212,8 @@
 .h1_title_7
 {
   margin-top: 30px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: var(--Text_Padding_top-bot);
+  padding-bottom: var(--Text_Padding_top-bot);
 
   font-family: "Rammetto One", sans-serif;
   font-weight: 700;
@@ -227,8 +241,8 @@
 .h1_title_8
 {
   margin-top: 30px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: var(--Text_Padding_top-bot);
+  padding-bottom: var(--Text_Padding_top-bot);
 
   font-family: "Rammetto One", sans-serif;
   font-weight: 700;
@@ -256,8 +270,8 @@
 .h1_title_9
 {
   margin-top: 30px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: var(--Text_Padding_top-bot);
+  padding-bottom: var(--Text_Padding_top-bot);
 
   font-family: "Rammetto One", sans-serif;
   font-weight: 700;
@@ -659,6 +673,7 @@ option {
 .Filter_All
 {
   color: black;
+  border-color: whitesmoke;
 }
 
 
@@ -753,6 +768,249 @@ option {
   color: #000000;
 
   font-size: 8px;
+}
+
+/* Theme - Button */
+.Theme_btn
+{
+  border-radius: 8px;
+  border-color: #6b6a69;
+  border-width: 3px;
+  border-style: solid;
+
+  position: absolute;
+  top: 0.6rem;
+  left: 60rem;
+
+}
+
+body .App.dark :root
+{
+  margin-left: -120px;
+  margin-right: -120px;
+}
+
+
+
+
+
+/* Light - Mode */
+.App.light, body.light
+{
+  border-radius: 12px;
+  background: #daec89;
+}
+
+.App.light .Theme_btn
+{
+  background: white;
+  color: black;
+}
+
+
+/* Dark - Mode */
+.App.dark, body.dark
+{
+  border-radius: 12px;
+  background: lch(19.4% 0 296.81);
+
+}
+
+.App.dark .Theme_btn
+{
+  background: black;
+  color: white;
+}
+
+.App.dark .Filter_input
+{
+  background-color: lab(6.77% 0 0);
+  color: whitesmoke;
+}
+
+.App.dark .Filter_All
+{
+  background-color: lab(6.77% 0 0);
+  color: whitesmoke;
+}
+
+.App.dark .Choice_Filter
+{
+  color: whitesmoke;
+}
+
+.App.dark .Select_all
+{
+  color: whitesmoke;
+}
+
+.App.dark .Filter_High
+{
+  background-color: lab(6.77% 0 0);
+
+}
+
+.App.dark .Filter_Low
+{
+  background-color: lab(6.77% 0 0);
+
+}
+
+
+
+.App.dark .Filter_Newest
+{
+  background-color: lab(6.77% 0 0);
+
+}
+
+.App.dark .Filter_Oldest
+{
+  background-color: lab(6.77% 0 0);
+
+}
+
+.App.dark .Low_Task
+{
+  background-color: lab(6.77% 0 0);
+  border-color: whitesmoke;
+}
+
+.App.dark .High_Task
+{
+  background-color: lab(6.77% 0 0);
+}
+
+.App.dark .Title_input
+{
+  background-color: lab(6.77% 0 0);
+  color: whitesmoke;
+}
+
+.App.dark .Text_input
+{
+  background-color: lab(6.77% 0 0);
+  color: whitesmoke;
+}
+
+.App.dark .addTask_btn
+{
+  background: linear-gradient(45deg, rgb(13, 13, 13) 40%, #767676 30%, hwb(0 69% 31%) 30%);
+  color: #f9f8f8;
+}
+
+.App.dark .addTask_btn:hover
+{
+  background: linear-gradient(180deg, rgb(13, 13, 13) 55%, #767676 20%, hwb(0 69% 31%) 40%);
+  color: #f9f8f8;
+}
+
+.App.dark .addTask_btn:active
+{
+   background: linear-gradient(130deg, rgb(13, 13, 13) 50%, #767676 20%, hwb(0 69% 31%) 40%);
+  color: #f9f8f8;
+}
+
+.App.dark li
+{
+  color: #d4d2d2;
+}
+
+.App.dark .li_Box
+{
+  background: hsl(0, 0%, 38%);
+  color: whitesmoke;
+}
+
+.App.dark .Prio_Date
+{
+  background-color: #000000;
+  color: whitesmoke;
+}
+
+.App.dark .Task_Priority
+{
+  color: whitesmoke;
+}
+
+.App.dark .Task_date
+{
+  color: whitesmoke;
+}
+
+.App.dark .Priority_low_high
+{
+  color: whitesmoke;
+}
+
+.App.dark .h1_title_1
+{
+  -webkit-text-stroke: 3.5px var(--Text_border_color);
+}
+
+.App.dark .h1_title_2
+{
+  -webkit-text-stroke: 3.5px var(--Text_border_color);
+}
+
+.App.dark .h1_title_3
+{
+  -webkit-text-stroke: 3.5px var(--Text_border_color);
+}
+
+.App.dark .h1_title_4
+{
+  -webkit-text-stroke: 3.5px var(--Text_border_color);
+}
+
+.App.dark .h1_title_5
+{
+  -webkit-text-stroke: 3.5px var(--Text_border_color);
+}
+
+.App.dark .h1_title_6
+{
+  -webkit-text-stroke: 3.5px var(--Text_border_color);
+}
+
+.App.dark .h1_title_7
+{
+  -webkit-text-stroke: 3.5px var(--Text_border_color);
+}
+
+.App.dark .h1_title_8
+{
+  -webkit-text-stroke: 3.5px var(--Text_border_color);
+}
+
+.App.dark .h1_title_9
+{
+  -webkit-text-stroke: 3.5px var(--Text_border_color);
+}
+
+
+
+
+/* Strange Fix > to Dark - Mode */
+html.dark
+{
+  background-color: #000000;
+}
+
+body
+{
+  background: transparent;
+}
+
+#root
+{
+  background: transparent;
+}
+
+.App
+{
+  background: transparent;
+  min-height: 100vh;
 }
 
 
