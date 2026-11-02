@@ -4,6 +4,8 @@
 {
   background-color: #daec89;
 
+
+  /* Header Font Dark-mode Design */
   --Text_border_color: lch(98.27% 0.01 296.81);
   --Text_Padding_top-bot: 2.5rem;
 }
